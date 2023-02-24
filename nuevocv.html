@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo CV</title>
+    <link rel="stylesheet" href="nuevocv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" langueage="Javascript" type="text/Javascript"></script>
+</head>
+<body>
+
+    <!-- header-->
+<div class="header">
+    <header>
+        <div class="logo">
+            <a href="#">MAURO SANCHEZ C.V</a>
+        </div>
+    <!--Menu-->
+        <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobre-mi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#formacion" onclick="seleccionar()">FORMACI&Oacute;N</a></li>
+                    <li><a href="#compu" onclick="seleccionar()">COMPUTACI&Oacute;N E INGLES</a></li>
+                    <li><a href="#objetivos" onclick="seleccionar()">OBJETIVOS</a></li>
+                    <li><a href="#experiencia" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+               </ul>
+        </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+       </header>
+</div>
+<!-- seccion I N I C I O-->
+
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+            <div class="imagen">
+                <img src="R.jpg"   alt="Imagen Con Traje y Buena Presencia" style="width: 300px;height: 500px;"> 
+                <h1 style="font-size: 30px;">MAURO SANCHEZ</h1>
+                <h2 style="font-size: 23px;">Personal Administrativo en TCA</h2> 
+            </div> 
+            <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            
+    </div>
+</section>
+
+<!-- seccion S O B R E   M I-->
+
+<section id="sobre-mi" class="sobre-mi">
+    
+    <div class="contenido-sobre-mi">
+        <h2>SOBRE MI</h2>
+        <p><span>Hola, Soy Mauro Sanchez</span>
+            trabajo en TCA (Terminal de Cargas Argentinas) y poseo excelentes habilidades de an&aacute;lisis,
+            planificaci&oacute;n y trabajo en equipo que he adquirido durante mis antiguos trabajos y en los
+            estudios que eh realizado. Como capit&aacute;n del equipo de f&uacute;tbol escolar, siempre demostr&eacute; excelentes
+            dotes de liderazgo. Me gustar&iacute;a empezar a realizar proyectos de programaci&oacute;n para ampliar
+            mis conocimientos sobre sobre dicha carrera e incursionar en ese fascinante mundo.</p>
+        
+            <div class="fila">
+                <!--Datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Nacimiento</strong>
+                                04/04/1994
+                            </li>
+
+                            <li>
+                                <strong>Tel&eacute;fono</strong>
+                                011-4232-2305
+                            </li>
+
+                            <li>
+                                <strong>E-mail</strong>
+                                ms@gmail.com
+                            </li>
+
+                            <li>
+                                <strong>Estado Civil</strong>
+                                Soltero
+                            </li>
+                            
+                            <li>
+                                <strong>Direcci&oacute;n</strong>
+                                Buenos Aires 123, Argentina
+                            </li>
+                        </ul>
+
+                </div>
+                <!--Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenido-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>TECNOLOG&Iacute;A</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                         </div>
+                         <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                         </div>
+                        
+                    </div>
+                </div>
+            </div>
+    
+    
+    </div>
+
+
+</section>
+
+<!--seccion H A B I L I D A D E S-->
+
+<section id="habilidades" class="habilidades">
+    <div class="contenido-hablidades">
+        <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- HABILIDADES PROFECIONALES-->
+                    <h3>HABILIDADES PROFECIONALES</h3>
+                        <div class="habilidad">
+                            <span>Comunicaci&oacute;n</span>
+                                <div class="barra-ability">
+                                    <div class="progreso comunicacion">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                                <span>Trabajo en equipo</span>
+                                <div class="barra-ability">
+                                    <div class="progreso t-e">
+                                        <span>87%</span>
+                                    </div>
+                                </div>
+                                <span>Responsabilidad</span>
+                                <div class="barra-ability">
+                                    <div class="progreso respon">
+                                        <span>96%</span>
+                                    </div>
+                                </div>
+                                <span>Liderazgo</span>
+                                <div class="barra-ability">
+                                    <div class="progreso lider">
+                                        <span>95%</span>
+                                    </div>
+                                </div>
+                                <span>Integraci&oacute;n</span>
+                                <div class="barra-ability">
+                                    <div class="progreso integracion">
+                                        <span>84%</span>
+                                    </div>
+                                </div>
+                        </div>
+            </div>
+    </div>
+
+    
+</section>
+
+<!--seccion F O R M A C I O N-->
+
+<section id="formacion" class="formacion">
+    <div class="contenido-formacion">
+        <div class="titulo">
+        <h2>FORMACI&Oacute;N</h2>
+        </div>
+            <div>
+                <table class="tabla-for">
+                    <!--ESTUDIOS-->
+                    <tr class="años">
+                        <th><h2>B.A. Multiplica 2.0</h2> Agosto - 2022 </th>
+                        <th><h2>Comercio Electr&oacute;nico</h2>Diciembre - 2020 </th>
+                        <th><h2>Bachiller en Econom&iacute;a y Gesti&oacute;n de las Organizaciones</h2>2009 -  2012</th>
+                        <th><h2>Curso de Capacitaci&oacute;n Laboral</h2>2011</th>
+                        <th><h2>Programa de Orientaci&oacute;n Para la Vida, el Trabajo y los Estudios Superiores</h2>2011</th>
+                    </tr>
+                    <!--DESCRPCION DE ESTUDIOS-->
+                    <tr class="descrip">
+                            <td>
+                                <h3>Microsoft, Power Point y Desarrollo del Pensamiento Creativo</h3>
+                                <p>Acerca de datos sobre diapositivas, diseño, textos y tablas. Enseña a insertar
+                                im&aacute;genes y gr&aacute;ficos.Tambi&eacute;n ayuda a realizar presentaciones 
+                                de diapositivas, animaciones con audio y video.
+                                </p>
+                                <h3>Microsoft Excel y An&aacute;lisis de Datos</h3>
+                                <p>Presenta conocimientos sobre hojas de c&aacute;alculo, filas, columnas,
+                                celdas, formato, f&oacute;rmulas, funciones, tablas, gr&acute;ficos y m&aacute;s.
+                                </p>
+                                <h3>Progamaci&oacute;n, Diseño Web, y Pensamiento L&oacute;gico Formal</h3>
+                                <p>Permite aprender a configurar el entorno de desarrollo, a usar "Visual Studio Code"
+                                a crear archivos para un sito web y a escribir en c&oacute;digo HTML, CSS y Javascript.
+                                </p>
+                                <h3>LinkedIn y B&uacute;squeda de Empleo (contenido asincr&oacute;nico)</h3>
+                                <p>Permite aprender a crear un CV y perfil de LinkedIn eficaz para b&uacute;squeda de 
+                                empleo a trav&eacute;s de internet.
+                                </p>
+                                <h3>Igualdad de G&eacute;nero en &Aacute;mbitos Laborales</h3>
+                                <p>Aborda conceptos y definiciones fundamentales. Facilita nociones sobre contexto
+                                actual y el marco legal. Presenta las diferentes redes comunitarias y estatales
+                                que promueven la igualdad de derecho hacia las mujeres, las diversidades y la 
+                                lucha contra la violencia de genero.
+                                </p>
+                                <h3>Taller de Reflexi&oacute;n Sobre la Construcci&oacute;n social de la Problematica del Consumo</h3>
+                                <p>Aborda nociones parala deconstrucci&oacute;n de falsas creencias y prejuicios de consumo
+                                de sustancias psicoactivas. Ofrece un espacio para la reflexi&oacute;n y la interacci&oacute;n
+                                de los participantes.        
+                                </p>
+                                <h3>Empleo Verde y Sustentabilidad en el Ambit&oacute; Laboral</h3>
+                                <p>Aborda conocimientos sobre las buenas pr&aacute;cticas ambientales dentro de las 
+                                empresas. Presenta la importancia y sustentabilidad de pol&iacute;ticas p&uacute;blicas
+                                que prioricen pr&aacute;cticas ambientales activas.
+                                </p>
+                            </td>
+                            <td>
+                                <h3>Asistente de Ventas en Mercado Libre.</h3>
+                                <p>Potrero Digital.</p>
+                            </td>
+                            <td>
+                                <h3>Bachillerato.</h3>
+                                <p> Escuela Media Nº201 "Luciano H. Valette".</p>
+                            </td>
+                            <td>
+                                <h3>Capacitaci&oacute;n Laboral.</h3>
+                                <p>Fundaci&oacute;n "Pescar" (Aeropuertos Argentina 2000).</p>
+                            </td>
+                            <td>
+                                <h3>P.O.V.I.T.E.S.</h3>
+                                <p>Universidad de la Prov. de Buenos Aires.</p>
+                            </td>
+
+                        </tr>
+                </table>
+            </div>
+    </div>
+</section> 
+
+<!-- seccion C O M P U T C I O N   E    I N G L E S-->
+
+<section id="compu" class="compu">
+    <div class="contenido-computacion">
+        <div class="titulo-compu">
+            <h2>COMPUTACI&Oacute;N E INGLES</h2>
+        </div>
+        <div class="fila1">
+            <!-- CONOCIMIENTOS EN COMPUTACION-->
+                <h3>CONOCIMIENTO EN COMPUTACI&Oacute;N</h3>
+                    <div class="computacion">
+                        <span>Computaci&oacute;n</span>
+                            <p>Medio - Avanzado</p>
+                    </div> 
+                    
+        </div>
+        <div class="fila2">
+            <!--CONOCIMIENTOS EN INGLES-->
+            <h3>CONOCIMIENTO EN INGLES</h3>
+                    <div class="ingles">
+                        <span>Ingles</span>
+                            <p>Basico - Medio</p>
+                        
+                    </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- seccion O B J E T I V O S-->
+
+<section id="objetivos" class="objetivos">
+    <div class="contenido-objetivos">
+        <h2>OBJETIVOS LABORALES</h2>
+        <p>Mi inter&eacute;s laboral es desarrollarme en el &aacute;rea correspondiente pudiendo desenpeñarme 
+            eficazmente en la tarea que se me asigne, aplicando y adquiriendo nuevos conocimientos. Soy capaz
+            de adaptarme a nuevos contextos, soy responsable, y cuento con muy buen manejo de las relaciones
+            interpersonales
+        </p>
+
+    </div>
+</section>
+
+<!-- seccion E X P E R I E N C I A-->
+
+<section id="experiencia" class="experiencia">
+    <div class="contenido-experiencia">
+        <div class="titulo">
+            <h2>EXPERIENCIA LABORAL</h2>
+        </div>
+            <div>
+                <table class="tabla-exp">
+                <!--AÑOS-->
+                    <div class="años">
+                        <tr>
+                            <th>2020 - Acutal <h3>Terminal de Cargas Argentinas.</h3></th>
+                            <th>2018 - 2020 <h3>Terminal de Cargas Argentinas.</h3></th>
+                            <th>2013 - 2018 <h3>Aeropuertos Argentina 2000 S.A.</h3></th>
+                            <th>2012 - 2013 <h3>Subway, Cadenas de Comidas R&aacute;pidas.</h3></th>
+                            <th>2011 - 2012 <h3>Restaurante "La Grimaldi". Servicio de Lunch.</h3></th>
+                            <th>2010 - 2011 <h3>Restaurante "La Grimaldi".</h3></th>
+                        </tr>
+                    </div>
+                <!--PUESTOS-->
+                    <div class="puesto">
+                        <tr>
+                            <td>Administrativo</td>
+                            <td>Operario</td>
+                            <td>Cajero Auxiliar B</td>
+                            <td>Ayudante de Cocina</td>
+                            <td>Repositor del Servicio de Comedor</td>
+                            <td>Ayudante de Cocina</td>
+                         </tr>
+                    </div>
+                </table>
+        
+            </div>
+    </div>
+</section>
+
+<!-- seccion C O N T A C T O-->
+
+<section id="contacto" class="contacto">
+    <div class="contenido-contacto">
+        <h2>CONTACTO</h2>
+            <div class="fila">
+            <!--Formulario-->
+                <div class="col">
+                    <inp ut type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Nº de Telefono">
+                    <input type="text" placeholder="Tu E-mail">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar
+                        <i class="fa-solid fa-paper-plane-top"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i>Buenos Aires, Argentina</li>
+                        
+                        <li><i class="fa-solid fa-mobile-retro"></i>Telefono: 011-4232-2305</li>
+                        
+                        <li><i class="fa-solid fa-envelope"></i>Email:  ms@gmail.com</li>
+                        
+                    </ul>
+                </div>    
+            </div>
+    </div>
+</section>
+
+<!--F O O T E R-->
+
+<footer>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+
+</footer>
+
+</body>
+</html>
