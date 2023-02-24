@@ -690,5 +690,39 @@ footer .redes a:hover{
     font-size: 15px;
    }
 
+   /*EXPERIENCIA*/
+   .contenido-experiencia .titulo h2{
+    font-size: 25px;
+   }
+
+   .experiencia .contenido-experiencia tr th {
+    font-size: 8px;
+   }
+
+   .experiencia .contenido-experiencia tr td{
+    font-size: 8px;
+   }
+
+   /*CONTACTO*/
+   .contacto .contenido-contacto h2{
+    font-size: 25px;
+   }
+
+   .contacto .contenido-contacto .info i{
+    font-size: 20px;
+   }
+
+   .contenido-contacto .fila .col input, .contenido-contacto .fila .col textarea{
+    font-size: 10px;
+   }
+
+   .contacto button{
+    font-size: 10px;
+   }
+
+   /*FOOTER*/
+   footer .redes a{
+    font-size: 15px;
+   }
   }
 
